@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//section[@class='widget widget_recent_entries']/ul)[1]/li/a"
+}

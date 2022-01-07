@@ -1,0 +1,189 @@
+{
+  "uid" : "bf1ec841a4129319",
+  "name" : "Find heading element & assert the text",
+  "fullName" : "Home.Find heading element & assert the text",
+  "historyId" : "756200b2f53847b68a24f493adb91b68",
+  "time" : {
+    "start" : 1641554413193,
+    "stop" : 1641554417100,
+    "duration" : 3907
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641554413195,
+        "stop" : 1641554416694,
+        "duration" : 3499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69bb22cf07c4ef14",
+        "name" : "Request",
+        "source" : "69bb22cf07c4ef14.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1641554416696,
+        "stop" : 1641554416865,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e6dd647c93f9294",
+        "name" : "Request",
+        "source" : "4e6dd647c93f9294.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "b380542fbbf656f3",
+        "name" : "Response",
+        "source" : "b380542fbbf656f3.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641554416867,
+        "stop" : 1641554416965,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee2ee46d551d885b",
+        "name" : "Request",
+        "source" : "ee2ee46d551d885b.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "88879ff06f2a4a98",
+        "name" : "Response",
+        "source" : "88879ff06f2a4a98.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/d57938ad-bca1-4a50-be41-d6a03ad50f1c/text",
+      "time" : {
+        "start" : 1641554416976,
+        "stop" : 1641554417050,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a500372e2449b50c",
+        "name" : "Response",
+        "source" : "a500372e2449b50c.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/d57938ad-bca1-4a50-be41-d6a03ad50f1c/text",
+      "time" : {
+        "start" : 1641554417058,
+        "stop" : 1641554417093,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0d8ad434697eb5d",
+        "name" : "Response",
+        "source" : "f0d8ad434697eb5d.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Find heading element & assert the text"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf1ec841a4129319.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

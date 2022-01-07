@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`//div[@role='alert']`) to have text containing\n                \n                Expected: \"Thank you for contacting us! We will be in touch with you shortly\"\n                Received: \"Thanks for contacting us! We will be in touch with you shortly\"",
+      "children" : [ {
+        "name" : "Fill the Contact form, submit form & assert the success message",
+        "uid" : "31124db51e181dae",
+        "parentUid" : "68d3bebaacaf3fe913080803cd1ee50f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641555172188,
+          "stop" : 1641555203327,
+          "duration" : 31139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-97.0.4692.71" ]
+      } ],
+      "uid" : "68d3bebaacaf3fe913080803cd1ee50f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

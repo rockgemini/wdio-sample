@@ -1,0 +1,81 @@
+[ {
+  "uid" : "699f9b42413fed66",
+  "name" : "Fetch recent posts list & assert the length of each post",
+  "time" : {
+    "start" : 1641408961132,
+    "stop" : 1641408971517,
+    "duration" : 10385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "124de49fe0ebd727",
+  "name" : "Open About page & assert URL",
+  "time" : {
+    "start" : 1641554401398,
+    "stop" : 1641554410616,
+    "duration" : 9218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73fefbce3d81949",
+  "name" : "Click Logo & assert URL doesn't contain get started text",
+  "time" : {
+    "start" : 1641554411828,
+    "stop" : 1641554413192,
+    "duration" : 1364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31124db51e181dae",
+  "name" : "Fill the Contact form, submit form & assert the success message",
+  "time" : {
+    "start" : 1641555172188,
+    "stop" : 1641555203327,
+    "duration" : 31139
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "76f602745430e9c0",
+  "name" : "Get the text of all menu items & assert them",
+  "time" : {
+    "start" : 1641554391460,
+    "stop" : 1641554399469,
+    "duration" : 8009
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dd1976817c4985f2",
+  "name" : "Click Get Started button & assert URL contains get started text",
+  "time" : {
+    "start" : 1641554410616,
+    "stop" : 1641554411827,
+    "duration" : 1211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf1ec841a4129319",
+  "name" : "Find heading element & assert the text",
+  "time" : {
+    "start" : 1641554413193,
+    "stop" : 1641554417100,
+    "duration" : 3907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fc751f0a4db3139",
+  "name" : "Open URL & assert title",
+  "time" : {
+    "start" : 1641554391355,
+    "stop" : 1641554401398,
+    "duration" : 10043
+  },
+  "status" : "passed",
+  "severity" : "minor"
+} ]

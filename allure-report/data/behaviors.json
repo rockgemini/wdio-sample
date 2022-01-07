@@ -1,0 +1,149 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Fetch recent posts list & assert the length of each post",
+    "uid" : "699f9b42413fed66",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641408961132,
+      "stop" : 1641408971517,
+      "duration" : 10385
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Open URL & assert title",
+    "uid" : "1fc751f0a4db3139",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641554391355,
+      "stop" : 1641554401398,
+      "duration" : 10043
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Navigation",
+    "children" : [ {
+      "name" : "Get the text of all menu items & assert them",
+      "uid" : "76f602745430e9c0",
+      "parentUid" : "0e3c709c74cf4c6a317ec19089925dbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641554391460,
+        "stop" : 1641554399469,
+        "duration" : 8009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "0e3c709c74cf4c6a317ec19089925dbc"
+  }, {
+    "name" : "Open About page & assert URL",
+    "uid" : "124de49fe0ebd727",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641554401398,
+      "stop" : 1641554410616,
+      "duration" : 9218
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Click Get Started button & assert URL contains get started text",
+    "uid" : "dd1976817c4985f2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641554410616,
+      "stop" : 1641554411827,
+      "duration" : 1211
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Logo Verification",
+    "children" : [ {
+      "name" : "Click Logo & assert URL doesn't contain get started text",
+      "uid" : "73fefbce3d81949",
+      "parentUid" : "d1862c1278983043d620687a355341c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641554411828,
+        "stop" : 1641554413192,
+        "duration" : 1364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "d1862c1278983043d620687a355341c9"
+  }, {
+    "name" : "Find heading element & assert the text",
+    "uid" : "bf1ec841a4129319",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641554413193,
+      "stop" : 1641554417100,
+      "duration" : 3907
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Fill the Contact form, submit form & assert the success message",
+    "uid" : "31124db51e181dae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1641555172188,
+      "stop" : 1641555203327,
+      "duration" : 31139
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  } ]
+}
